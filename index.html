@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu catálogo de Snv</title>
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .img-card-container {
+            height: 650px;
+        }
+
+        .card-img-top {
+            height: 550px;
+            align-self: center;
+        }
+
+        .card {
+            overflow: hidden;
+            height: 700px;
+        }
+    </style>
 </head>
+
 <body class="bg-dark">
     <nav class="navbar bg-success navbar-dark mb-5">
         <div class="container">
@@ -18,19 +32,147 @@
     </nav>
     <main class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <img src="./assets/"
-                     class="card-img-top"
-                      alt="">
-                      <div class="card-body">
+            <!-- Primeiro card -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card p-4">
+                    <div class="img-card-container d-flex justify-content-center">
+                        <img src="./assets/Bruzinha.jpeg" class="card-img-top"
+                            alt="Imagem da Brunhilde de Shuumatsu No Valkyrie/Record of Ragnarok">
+                    </div>
+                    <div class="card-body">
                         <h5 class="card-title">Brunhilde</h5>
-                        <p class="card-text">Fala:<span>"Os Deuses Estão Com Medinho?" - De Brunhilde para os Deuses no Anime Record of Ragnarok no episódio 1</span></p>
-                   </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBrunhilde">Ver
+                            mais</button>
+                        <div class="modal-body">
+                            <p class="card-text">Falas:<span>(Para os Deuses ) " Você está ficando com medo?
+                                    "</span><span>"A relação dos humanos com as Valquírias é mais profunda do que a que
+                                    eles
+                                    têm com os Deuses . Como podemos abandoná-los?"- Brunhilde para Göll em O Conflito
+                                    Final</span><span>(Para Hércules ) " Quando tudo estiver feito...eu também irei lá.
+                                    "</span><span>(Para si mesma) "Eu sei que jurei que nunca seria abalada... até o
+                                    último
+                                    momento. Mas parece que sou muito... muito mais fraca do que eu acreditava. Mesmo
+                                    assim... não importa o custo... eu devo salvá- los."</span></p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-    </div>
+            <!-- Primeiro modal-->
+            <div id="ModalBrunhilde" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Brunhilde</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Brunhilde é a protagonista do anime/mangá Record of Ragnarok/Shuumatsu no Valkyrie, ela propoem para os deuses (que planejavam exterminar a humanidade) uma luta de 13 contra 13, Deuses contra humanos, conhecido como Ragnarok! Quem conseguir 7 vitórias primeiro vence, a humanidade ganha mais 1000 anos de sobrevivência </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segundo card -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card p-4">
+                    <div class="img-card-container d-flex justify-content-center">
+                        <img src="./assets/Göllzinha.jpeg" class="card-img-top"
+                            alt="Imagem da Göll de Shuumatsu No Valkyrie/Record of Ragnarok">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Göll</h5>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalGöll">Ver
+                            mais</button>
+                        <p class="card-title">Falas:<span>“Sim... o destino de toda a raça humana está nos ombros da
+                                Irmã
+                                Hilde. Preciso ajudar a Irmã Hilde de todas as maneiras que puder."— Göll para si
+                                mesma
+                                em
+                                On the Precipice</span><span>(Para Brunhilde ) "É impossível, mana! Que tipo de
+                                humano
+                                poderia vencer um Deus?"</span><span>(Para Hrist ) "Mas... Eu nem consegui me
+                                despedir... Eu
+                                não pude fazer nada por ela..."</span><span>(Para Brunhilde ) "Eu... Eu não entendo
+                                muito
+                                bem. Por que... Por que você escolheu aquele homem?"</span><span>(Para Brunhilde )
+                                "Desculpe... Eu fui longe demais. Eu sei que você tem seus próprios planos, Irmã
+                                Hilde..."</span><span>(Para Jack, o Estripador ) "Você está... Coberto de
+                                cicatrizes.[...]
+                                Se você está ferido, deveria descansar um pouco!"</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Modal -->
+            <div id="ModalGöll" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Terceiro card -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card p-4">
+                    <div class="img-card-container d-flex justify-content-center">
+                        <img src="./assets/Okita.jpeg" class="card-img-top"
+                            alt="Imagem do Okita de Shuumatsu No Valkyrie/Record of Ragnarok">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Okita</h5>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalGöll">Ver
+                            mais</button>
+                        <p class="card-title">Falas:<span>"Essa cidade, tão nostálgica... Até o cheiro de sangue é o
+                                mesmo."— Soji Okita para si mesmo em Cherished Place</span><span>(Para Isami Kondo )
+                                "Mesmo
+                                um monstro como eu... você acha que eu posso me tornar um? Em vez de um monstro
+                                violento
+                                com
+                                o poder de matar... eu poderia me tornar um samurai que luta por suas
+                                crenças?"</span></p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Terceiro Modal -->
+            <div id="ModalOkita" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    
+
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+"></script>
 </body>
+
 </html>
